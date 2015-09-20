@@ -1,0 +1,214 @@
+﻿/* =================================================================== */
+/* Styles Switcher
+====================================================================== */
+
+	#style-switcher h3 {
+		color: #888;
+		font-size: 13px;
+		margin: 5px 0 5px 1px;
+	}
+
+	#style-switcher {
+		background-color: #fff;
+		width: 205px;
+		position:fixed;
+		top: 90px;
+		z-index: 999;
+		border-radius: 0 0 3px 0;
+		left: -206px;
+		border: 1px solid #e4e4e4;
+		border-left: 0;
+		border-top: 0;
+		box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.08);
+	}
+
+	#style-switcher div {
+		padding: 2px 18px 10px 18px;
+	}
+
+	#style-switcher h2 {
+		background-color: #909090;
+		color: #fff;
+		font-weight: bold;
+		font-size: 14px;
+		padding: 7px 0 6px 20px;
+	}
+
+	#style-switcher h2 a {
+		background: url("../images/switcher.png") no-repeat 10px center transparent;
+		background-color: #909090;
+		display: block;
+		height: 43px;
+		position: absolute;
+		right: -43px;
+		text-indent: -9999px;
+		top: 0;
+		width: 43px;
+		border-radius: 0 3px 3px 0;
+		z-index:99999
+	}
+
+	.colors {
+		list-style:none;
+		margin: 0 0 10px -40px !important;
+		overflow: hidden;
+	}
+
+	.colors li {
+		float:left;
+		margin: 4px 2px 0 2px;
+	}
+
+	.colors li a {
+		display: block;
+		width: 17px;
+		height: 17px;
+		cursor: pointer;
+		border-radius: 1px;
+	}
+
+	.layout-style select,
+	.footer-style select {
+		width: 164px;
+		padding: 5px;
+		color: #888;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 13px;
+		margin: 2px 0 10px 2px;
+	}
+
+	.layout-style,
+	.footer-style { padding: 0 !important; }
+
+	.color1 { background: #FFBF00; }
+	.color2 { background: #FF033E; }
+	.color3 {background: #A4C639; }
+	.color4 { background: #CD9575; }
+	.color5 { background: #915C83; }
+	.color6 { background: #8DB600; }
+	.color7 { background: #4B5320; }
+	.color8 { background: #87A96B; }
+	.color9 { background: #6E7F80; }
+	.color10 { background: #FF2052; }
+	.color11 { background: #3D2B1F; }
+	.color12 { background: #FE6F5E; }
+	.color13 { background: #6DCFF4; }
+	.color14 { background: #006A4E; }
+	.color15 { background: #0070FF; }
+	.color16 { background: #BF94E4; }
+	.color17 { background: #CD7F32; }
+	.color18 { background: #A52A2A; }
+	.color19 { background: #800020; }
+	.color20 { background: #CC5500; }
+	.color21 { background: #702963; }
+	.color22 { background: #536872; }
+	.color23 { background: #4B3621; }
+	.color24 { background: #1E4D2B; }
+	.color25 { background: #E03C31; }
+	.color26 { background: #36454F; }
+	.color27 { background: #7FFF00; }
+	.color28 { background: #D2691E; }
+	.color29 { background: #002E63; }
+	.color30 { background: #FF3800; }
+	.color31 { background: #A1CF64; }
+	.color32 { background: #008000; }
+	.color33 { background: #F05840; }
+	.color34 { background: #564F8A; }
+	.color35 { background: #D85C5C; }
+	.color36 { background: #00B5AE; }
+	.color37 { background: #0033AA; }
+	.color38 { background: #3CD070; }
+	.color39 { background: #40826D; }
+	.color40 { background: #722F37; }
+
+
+
+	.bg1 { background-image: url("../images/bg/noise.png"); }
+	.bg2 { background-image: url("../images/bg/retina_dust.png"); }
+	.bg3 { background-image: url("../images/bg/brushed_alu.png"); }
+	.bg4 { background-image: url("../images/bg/crisp_paper_ruffles.png"); }
+	.bg5 { background-image: url("../images/bg/navy_blue.png"); }
+	.bg6 { background-image: url("../images/bg/bedge_grunge.png"); }
+	.bg7 { background-image: url("../images/bg/diamond_upholstery.png"); }
+	.bg8 { background-image: url("../images/bg/egg_shell.png"); }
+	.bg9 { background-image: url("../images/bg/light_toast.png"); }
+	.bg10 { background-image: url("../images/bg/noise_pattern_with_crosslines.png"); }
+	.bg11 { background-image: url("../images/bg/purty_wood.png"); }
+	.bg12 { background-image: url("../images/bg/subtle_stripes.png"); }
+	.bg13 { background-image: url("../images/bg/textured_stripes.png"); }
+	.bg14 { background-image: url("../images/bg/tileable_wood_texture.png"); }
+	.bg15 { background-image: url("../images/bg/crissXcross.png"); }
+	.bg16 { background-image: url("../images/bg/vichy.png"); }
+
+	@media only screen and (max-width: 1023px) { #style-switcher { display: none; } }
+
+	/* =================================================================== */
+/* Forms
+====================================================================== */
+
+/* Contact Form
+====================================*/
+#contact fieldset div  {
+	margin-bottom: 20px;
+}
+
+#contact fieldset div input {
+	width: 240px;
+}
+
+#contact textarea {
+	width: auto;
+	min-width: 97.5%;
+	min-height: 180px;
+	background: #fff;
+	resize: vertical;
+}
+
+#contact input,
+#contact textarea,
+#contact select {
+	-webkit-transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border-color 200ms ease-in-out;
+}
+
+#contact input:focus
+#contact textarea:focus,
+#contact select:focus {
+	border: 1px solid #d6d6d6;
+	outline: none;
+	position: relative;
+	z-index: 5;
+}
+
+#contact input.error,
+#contact textarea.error,
+#contact select.error {
+	border: 1px solid #f2c4c2;
+	background: #ffeceb;
+}
+
+#contact label span {
+	color: #e24747;
+}
+
+#contact input[type="submit"][disabled] {
+	background: #a0a0a0;
+}
+
+#message {
+	margin: 0;
+	padding: 0;
+	display: block;
+	background: transparent none;
+}
+
+.loader {
+	padding: 10px;
+	float: left;
+}
+
+

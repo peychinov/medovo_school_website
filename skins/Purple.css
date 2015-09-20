@@ -1,0 +1,290 @@
+/* =================================================================== */
+/* Purple:  Primary #564F8A - Secondary #7872A1 - Tint #D0CEE3 - rgba(86,79,138)
+====================================================================== */
+.ui.primary-color.segment .header a.link {
+  color: #7872A1;
+}
+.ui.primary-color.inverted.segment,
+.ui.primary-color.segment .header,
+.ui.primary-color.segment .footer {
+  background-color: #564F8A
+}
+.ui.primary-color.segment:not(.fitted) {
+  box-shadow: 0 -2px 0 0 #564F8A;
+  border-top: 0
+}
+.ui.inverted.primary-color.header {
+  background-color: #564F8A;
+  color: #FFFFFF;
+}
+.ui.primary-color.header {
+  color: #564F8A;
+}
+.ui.primary-color.dividing.header {
+  border-bottom: 3px solid #564F8A;
+}
+.ui.inverted.primary-color.header {
+  background-color: #564F8A;
+  color: #FFFFFF;
+}
+/*--- primary-color ---*/
+.ui.primary-color.buttons .button,
+.ui.primary-color.button {
+  background-color: #564F8A;
+  color: #FFFFFF;
+}
+.ui.primary-color.buttons .button:hover,
+.ui.primary-color.button:hover,
+.ui.primary-color.buttons .active.button,
+.ui.primary-color.button.active {
+  background-color: #7872A1;
+  color: #FFFFFF;
+}
+.ui.primary-color.buttons .button:active,
+.ui.primary-color.button:active {
+  background-color: #564F8A;
+  color: #FFFFFF;
+}
+.ui.primary-color.labels .label,
+.ui.primary-color.label,
+.ui.ribbon .ribbon.primary-color {
+  background-color: #564F8A;
+  border-color: #564F8A;
+  color: rgba(255,255,255,0.80)
+}
+.ui.labels .primary-color.label:before,
+.ui.primary-color.labels .label:before,
+.ui.primary-color.label:before {
+  background-color: #564F8A
+}
+a.ui.primary-color.labels .label:hover,
+.ui.primary-color.labels a.label:hover,
+a.ui.primary-color.label:hover {
+  background-color: #7872A1;
+  border-color: #7872A1;
+  color: rgba(255,255,255,1)
+}
+.ui.labels a.primary-color.label:hover:before,
+.ui.primary-color.labels a.label:hover:before,
+a.ui.primary-color.label:hover:before {
+  background-color: #7872A1
+}
+.ui.primary-color.corner.label,
+.ui.primary-color.corner.label:hover {
+  background-color: transparent
+}
+.ui.primary-color.ribbon.label {
+  border-color: #7872A1
+}
+.ui.primary-color.progress .bar {
+  background-color: #564F8A
+}
+
+a,
+a.inverted,
+a.white {
+  color: #564F8A;
+}
+a.inverted:hover,
+a.inverted:focus {
+  color: #564F8A;
+}
+a.white:hover,
+a.white:focus {
+  color: #564F8A;
+}
+.chosen-container .chosen-results li.highlighted {
+  background-color: #564F8A;
+}
+.ui.tabs li a.active {
+  box-shadow: inset 0 2px 0 0 #564F8A;
+}
+.ui.tabs li a.active:before {
+  border-top: 6px solid #564F8A;
+}
+
+.checkbox input:checked + i:after {
+  color: #564F8A
+}
+.ui.double.header {
+  border-bottom: 1px solid #564F8A;
+}
+.ui.double.header span {
+  border-bottom: 3px solid #564F8A;
+  
+}
+.ui.double.header span {
+  border-bottom: 2px solid #564F8A;
+  
+}
+.checkbox input:checked + i:after {
+  color: #564F8A
+}
+.radio input:checked + i:after {
+  color: #564F8A
+}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  background-color: #564F8A;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background-color: #564F8A;
+}
+.progress.plain .bar {
+    background: #564F8A !important;
+}
+.pricing .plan h4 span {
+    color: #564F8A
+}
+.pricing .plan h3 {
+    background: #564F8A !important;
+    color: #fff !important;
+}
+footer.inverted {
+  border-top: 3px solid #564F8A;
+}
+
+#scrollUp {
+  background-color: #564F8A;
+}
+
+.ui.menu .topmenu.active.item,
+.ui.topmenu.menu .active.item {
+  border-color: #564F8A !important;
+}
+
+.ui.inverted.topmenu.menu {
+  background-color: #564F8A;
+}
+.ui.inverted.topmenu.pointing.menu .active.item:after {
+  background-color: #564F8A;
+}
+.ei-title h3 {
+  color: #564F8A !important;
+}
+.ei-slider-thumbs li.ei-slider-element {
+  background: #564F8A !important;
+}
+.ei-title h2 {
+  color: #7872A1 !important;
+}
+.ui.button {
+  background-color: #564F8A 
+}
+#calendar .calheader {
+  background-color: #564F8A !important;
+}
+.ui.comments .comment .text {
+  box-shadow: inset 0 1px 0 0 #564F8A !important;
+}
+#digicats li a {
+  color: #564F8A !important
+}
+#digiwrap.digilist aside {
+  border-right: 3px solid #564F8A !important;
+}
+@media screen and (max-width:800px) {
+#digiwrap.digilist aside {
+  border-bottom: 3px solid #564F8A !important;
+}
+}
+
+#digiwrap.digigrid section:before,#list-view section:before,#foliowrap section:before {
+  background: none  !important;
+}
+#digiwrap.digigrid section:after,#list-view section:after,#foliowrap section:after {
+  background: none  !important;
+}
+#folio-single .pitem {
+  box-shadow: -4px -4px 0 0 rgba(0,0,0,0.1), 3px 3px 0 0 #ececec !important;
+  
+}
+
+
+
+.ui.secondary.buttons .button,
+.ui.secondary.button {
+  background-color: #564F8A !important;
+}
+#countevent .dash {
+  width: 24% !important;
+  margin-right:1%;
+  background-color: #564F8A !important;
+}
+#blogcats li a {
+  color: #564F8A !important
+}
+.ui.tertiary.segment:before {
+  background: #564F8A;
+  color: #564F8A;
+}
+#forum > .section section:before {
+  background: none !important;
+}
+#forum > .section section:after {
+  background: none !important;
+}
+#topwidget .static-image {
+  color: #564F8A
+}
+#topwidget .static-image > h1 {
+  color: #564F8A;
+}
+
+footer.inverted {
+  background-color: #564F8A;
+  color:#FFF;
+}
+footer.inverted a {
+  color:#FFF;
+}
+#botwidget.inverted {
+  background-color: #7872A1;
+  color: #FFF;
+  border-top: 5px solid #564F8A;
+}
+#botwidget.inverted h3,#botwidget.inverted a {
+  color: #FFF;
+}
+a:hover,
+a.hover,
+a:focus {
+  color: #7872A1;
+}
+.ui.button:hover {
+  background-color: #7872A1;
+}
+#cartlist .labeled.button:hover {
+  background-color: transparent;
+}
+#show-result .ui.button {
+  background-color: transparent;
+}
+
+#cal-wrap-small .small-calendar tr td.events a:hover {
+
+  background-color: #7872A1 !important;
+}
+
+#cd-google-map address {
+  background-color: rgba(86,79,138,0.9) !important;
+}
+#cd-zoom-in, #cd-zoom-out {
+  background-color:  rgba(86,79,138,0.9) !important;
+}
+.layer {
+    background-color: rgba(86,79,138, 0.9) !important;
+}
+.no-touch #cd-zoom-in:hover, .no-touch #cd-zoom-out:hover {
+  background-color: #7872A1 !important;
+}
+.col-services .icon i.icn {
+    color: #564F8A;
+}
+.col-services-2 .col:hover .icon-border i {
+    background-color: #564F8A;
+}
+.ui.inverted.menu {
+  background: #564F8A /*!important;*/;
+  box-shadow: none;
+}
