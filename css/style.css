@@ -81,8 +81,8 @@ nav li a {
 	border-bottom: 2px solid #F30;
 }
 .gr-section {
-		  color:#6F808C;
-          padding:40px 20px;
+	color:#6F808C;
+  padding:20px 20px;
 }
 .gr-section .divider{
 	padding:30px 0 !important;
@@ -1285,9 +1285,6 @@ float:left;
 .topbar.ui.menu.inverted item:active,.topbar.ui.menu.inverted item:active {
 	color:#fff !important;
 	background-color:#000 !important
-}
-.ui.horizontal.divider{
-	margin:40px 0;
 }
 .folio.ui .dimmer{
 	z-index:0 !important;
