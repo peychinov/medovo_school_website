@@ -28,3 +28,11 @@ menu.ready = function() {
 
 // attach ready event
 $(document).ready(menu.ready);
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    slideMargin: 10,
+    adaptiveHeight: true,
+    mode: 'fade'
+  });
+});
