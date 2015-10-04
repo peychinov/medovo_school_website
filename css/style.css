@@ -38,7 +38,7 @@
 
 html,
 body {
-  font-size: 14px;
+  font-size: 16px;
 }
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1258,7 +1258,6 @@ float:left;
 
 #main-nav.ui.menu .item {
   color: #6F808C;
-  font-size: 14px !important;
 }
 #main-nav.ui.menu .item:hover {
   color: #080b10;
