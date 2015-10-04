@@ -1227,7 +1227,7 @@ float:left;
 
 #main-nav.ui.menu a.active {
   box-shadow: none;
-  background: #fff !important;
+  background: #ddd !important;
 }
 #main-nav a:active,#main-nav.dropdown.count a:active{
   box-shadow: none;
