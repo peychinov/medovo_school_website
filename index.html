@@ -13,6 +13,7 @@
     <link href="./css/jquery.bxslider.css" rel="stylesheet" type="text/css">
     <link href="./fonts/picons.css" rel="stylesheet">
     <link href="./css/color13.css" rel="stylesheet" id="colors" type="text/css">
+    <link href="./css/jquery.fullPage.css" rel="stylesheet" type="text/css" />
     <!-- Javascript -->
     <script src="./javascript/jquery.min.js"></script>
     <script src="./javascript/jquery.legacy.min.js"></script>
@@ -22,6 +23,12 @@
     <script src="./javascript/jquery.bxslider.min.js"></script>
     <script src="./javascript/my_custom_js.js"></script>
     <script type="text/javascript" src="./javascript/jquery.mb.audio.js"></script>
+
+    <script type="text/javascript" src="./javascript/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="./javascript/jquery.slimscroll.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
     <script type="text/javascript">
       <!-- Sidebar -->
       $(document).ready(function(){
@@ -43,7 +50,55 @@
         on: 'hover'
       });
       });
+
+      $(document).ready(function() {
+        $('#myContainer').fullpage({
+          sectionsColor: ['#4A6FB1', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+          anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+          resize: false,
+          animateAnchor:false,
+          scrollOverflow: true,
+          autoScrolling:true,
+          responsive: 900,
+          fitSection: false,
+          menu: '#menu',
+          navigation:true,
+          continuousVertical:true,
+          paddingTop: '20px',
+          css3: true,
+        });
+      });
     </script>
+
+
+    <style>
+      #actions{
+        position:fixed;
+        top: 73px;
+        left: 30px;
+        z-index: 99999;
+      }
+      #actions a{
+        background: rgba(0,0,0,0.8);
+        padding: 7px;
+        margin: 2px;
+        color: #ccc;
+        display: inline-block;
+      }
+      #actions a:hover{
+        color: #fff;
+        background: #81A140;
+      }
+
+      /* Overwriting styles for control arrows for slides
+      * --------------------------------------- */
+      .fp-controlArrow.fp-prev {
+        left: 50px;
+      }
+      .fp-controlArrow.fp-next{
+        right: 50px;
+      }
+    </style>
   </head>
   <body>
     <!-- Layout -->
@@ -130,9 +185,20 @@
         </section>
       </div>
       <!--/ Top Widget -->
+
+
+      <ul id="menu">
+        <li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+        <li data-menuanchor="4thpage"><a href="#4thpage">Fourth slide</a></li>
+      </ul>
+
+      <div id="myContainer">
+
       <!-- section -->
       <div id="our_mission"></div>
-      <section class="gr-section white">
+      <div class="section" id="section0">
         <h2 class="ui horizontal header divider">
           Нашата цел
         </h2>
@@ -233,11 +299,11 @@
           <!-- / Portfolio-->
         </div>
         <!--/ container -->
-      </section>
+      </div>
       <!--/ section -->
       <div id="the_project"></div>
       <!-- section -->
-      <section class="gr-section gray">
+      <div class="section" id="section1">
         <h2 class="ui horizontal inverted header divider">
           Проектът
         </h2>
@@ -245,7 +311,7 @@
         <div class="container">
           <!--  services-->
           <div id="services" class="col-services">
-            <div class="ui columns ">
+            <div class="slide ui columns ">
               <div class="screen-50 tablet-50 phone-100" style='padding: 3em'>
                 <div class="ui image rounded large">
                   <img src="images/the_place.jpg">
@@ -272,7 +338,7 @@
                 </div>
               </div>
             </div>
-            <div class="ui col">
+            <div class="slide ui col">
               <div class="screen-50 tablet-50 phone-100" style='padding: 0em 3em'>
                 <div class="ui image rounded large">
                   <img src="images/the_work.jpg">
@@ -300,7 +366,7 @@
                 </div>
               </div>
             </div>
-            <div class="ui columns">
+            <div class="slide sui columns">
               <div class="screen-50 tablet-50 phone-100" style='padding: 3em'>
                 <div class="ui image rounded large">
                   <img src="images/schedule.jpg">
@@ -329,7 +395,7 @@
           <!-- / services-->
         </div>
         <!--/ container -->
-      </section>
+      </div>
       <!--/ section -->
       <!-- section -->
       <!-- <section class="gr-section  parallax">
@@ -374,7 +440,7 @@
 
       <div id="progress"></div>
       <!-- section -->
-      <section class="gr-section">
+      <div class="section" id="section2">
         <h2 class="ui horizontal header divider">
           Прогресът
         </h2>
@@ -432,7 +498,7 @@
           </div>
         </div>
         <!--/ container -->
-      </section>
+      </div>
       <!--/ section -->
 
 
@@ -466,7 +532,7 @@
       </section>
       <!--/ section -->
 
-
+      </div>
 
       <div id="botwidget" class="inverted">
         <!-- container -->
