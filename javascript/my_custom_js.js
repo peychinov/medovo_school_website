@@ -32,9 +32,10 @@ $(document).ready(menu.ready);
 $(document).ready(function(){
   $('.bxslider').bxSlider({
     slideMargin: 10,
+    slideWidth: 1000,
     mode: 'fade',
     auto: true,
-    pause: 6000,
+    pause: 10000,
     autoControls: true
   });
 });
