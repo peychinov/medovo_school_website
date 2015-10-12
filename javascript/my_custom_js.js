@@ -32,7 +32,9 @@ $(document).ready(menu.ready);
 $(document).ready(function(){
   $('.bxslider').bxSlider({
     slideMargin: 10,
-    adaptiveHeight: true,
-    mode: 'fade'
+    mode: 'fade',
+    auto: true,
+    pause: 6000,
+    autoControls: true
   });
 });
