@@ -30,12 +30,18 @@ menu.ready = function() {
 $(document).ready(menu.ready);
 
 $(document).ready(function(){
-  $('.bxslider').bxSlider({
+  $('div.bxslider').bxSlider({
     slideMargin: 10,
     slideWidth: 1000,
     mode: 'fade',
     auto: true,
     pause: 10000,
     autoControls: true
+  });
+
+  $('ul.bxslider').bxSlider({
+    mode: 'fade',
+    auto: true,
+    pause: 10000
   });
 });
