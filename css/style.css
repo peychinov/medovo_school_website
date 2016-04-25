@@ -47,8 +47,6 @@ body {
   color: #6F808C !important;
   text-rendering: optimizeLegibility;
   font-weight: 400;
-  background: #f3f5f9 url(../images/bg1.jpg) ;
-  background-repeat:repeat;
   overflow-x: hidden;
 }
 .boxed {
@@ -547,11 +545,6 @@ ul.sm {
   background-color: #fff;
 }
 #topwidget .static-image {
-  background-attachment: scroll;
-  background-image: url("../images/static.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   padding-top: 3em;
   padding-bottom: 3em;
